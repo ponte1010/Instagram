@@ -6,4 +6,8 @@
 //  Copyright © 2020 tetsushi.miwa. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ImageSelectViewController: UIViewController, UINavigationControllerDelegate{
+    
+}
