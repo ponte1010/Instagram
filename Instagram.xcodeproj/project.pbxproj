@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		189C7EC52577A5FC00B848B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C7EC42577A5FC00B848B4 /* AppDelegate.swift */; };
 		189C7EC72577A5FC00B848B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C7EC62577A5FC00B848B4 /* SceneDelegate.swift */; };
-		189C7EC92577A5FC00B848B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C7EC82577A5FC00B848B4 /* ViewController.swift */; };
 		189C7ECC2577A5FC00B848B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C7ECA2577A5FC00B848B4 /* Main.storyboard */; };
 		189C7ECE2577A5FF00B848B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C7ECD2577A5FF00B848B4 /* Assets.xcassets */; };
 		189C7ED12577A5FF00B848B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C7ECF2577A5FF00B848B4 /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 		189C7EC12577A5FC00B848B4 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C7EC42577A5FC00B848B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189C7EC62577A5FC00B848B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		189C7EC82577A5FC00B848B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189C7ECB2577A5FC00B848B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189C7ECD2577A5FF00B848B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189C7ED02577A5FF00B848B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 			children = (
 				189C7EC42577A5FC00B848B4 /* AppDelegate.swift */,
 				189C7EC62577A5FC00B848B4 /* SceneDelegate.swift */,
-				189C7EC82577A5FC00B848B4 /* ViewController.swift */,
 				18AAF951257CD79D00F8B7D2 /* LoginViewController.swift */,
 				18AAF953257CD7B500F8B7D2 /* HomeViewController.swift */,
 				18AAF955257CD7CA00F8B7D2 /* ImageSelectViewController.swift */,
@@ -158,7 +155,6 @@
 				18AAF958257CD7DC00F8B7D2 /* PostViewController.swift in Sources */,
 				18AAF95A257CD7EF00F8B7D2 /* SettingViewController.swift in Sources */,
 				18AAF952257CD79D00F8B7D2 /* LoginViewController.swift in Sources */,
-				189C7EC92577A5FC00B848B4 /* ViewController.swift in Sources */,
 				189C7EC52577A5FC00B848B4 /* AppDelegate.swift in Sources */,
 				189C7EC72577A5FC00B848B4 /* SceneDelegate.swift in Sources */,
 			);
