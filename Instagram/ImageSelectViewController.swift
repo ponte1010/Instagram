@@ -9,5 +9,13 @@
 import UIKit
 
 class ImageSelectViewController: UIViewController, UINavigationControllerDelegate{
+    @IBAction func handleLibraryButton(_ sender: Any) {
+    }
+    
+    @IBAction func handleCameraButton(_ sender: Any) {
+    }
+    
+    @IBAction func handleCancelButton(_ sender: Any) {
+    }
     
 }
