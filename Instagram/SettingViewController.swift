@@ -13,6 +13,7 @@ import SVProgressHUD
 class SettingViewController: UIViewController{
     @IBOutlet weak var displayNameTextField: UITextField!
     
+    // 表示名変更ボタンをタップしたときに呼ばれるメソッド
     @IBAction func handleChangeButton(_ sender: Any) {
         if let displayName = displayNameTextField.text {
             
@@ -44,7 +45,17 @@ class SettingViewController: UIViewController{
         self.view.endEditing(true)
     }
     
+    // ログアウトボタンをタップしたときに呼ばれるメソッド
     @IBAction func handleLogoutButton(_ sender: Any) {
+        // ログアウトする
+        try! Auth.auth().signOut()
+        
+        // ログイン画面を表示する
+        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+        self.present(loginViewController!, animated: true, completion: nil)
+        
+        // ログイン画面から戻ってきた時のためにホーム画面（index = 0）を選択している状態にしておく
+        tabBarController?.selectedIndex = 0
     }
     
     override func viewWillAppear(_ animated: Bool) {
