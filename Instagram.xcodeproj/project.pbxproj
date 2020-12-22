@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		16527D000B94984706D8F691 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182427AC041F93F8E75D7A61 /* Pods_Instagram.framework */; };
 		181606B52592194800EE5CE0 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181606B42592194800EE5CE0 /* Const.swift */; };
+		181606B72592253800EE5CE0 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181606B62592253800EE5CE0 /* PostData.swift */; };
 		188C1D93257CED67007CF4C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C1D92257CED67007CF4C8 /* TabBarController.swift */; };
 		188C1D95257CF835007CF4C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188C1D94257CF834007CF4C8 /* GoogleService-Info.plist */; };
 		189C7EC52577A5FC00B848B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C7EC42577A5FC00B848B4 /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		181606B42592194800EE5CE0 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		181606B62592253800EE5CE0 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		182427AC041F93F8E75D7A61 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188C1D92257CED67007CF4C8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		188C1D94257CF834007CF4C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				18AAF959257CD7EF00F8B7D2 /* SettingViewController.swift */,
 				188C1D92257CED67007CF4C8 /* TabBarController.swift */,
 				181606B42592194800EE5CE0 /* Const.swift */,
+				181606B62592253800EE5CE0 /* PostData.swift */,
 				189C7ECA2577A5FC00B848B4 /* Main.storyboard */,
 				189C7ECD2577A5FF00B848B4 /* Assets.xcassets */,
 				189C7ECF2577A5FF00B848B4 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 				18AAF954257CD7B500F8B7D2 /* HomeViewController.swift in Sources */,
 				18AAF958257CD7DC00F8B7D2 /* PostViewController.swift in Sources */,
 				18AAF95A257CD7EF00F8B7D2 /* SettingViewController.swift in Sources */,
+				181606B72592253800EE5CE0 /* PostData.swift in Sources */,
 				18AAF952257CD79D00F8B7D2 /* LoginViewController.swift in Sources */,
 				189C7EC52577A5FC00B848B4 /* AppDelegate.swift in Sources */,
 				189C7EC72577A5FC00B848B4 /* SceneDelegate.swift in Sources */,
