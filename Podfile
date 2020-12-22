@@ -12,4 +12,5 @@ target 'Instagram' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'FirebaseUI/Storage'
+  pod 'SVProgressHUD','2.2.5'
 end
