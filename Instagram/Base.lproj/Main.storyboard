@@ -61,10 +61,51 @@
                     <view key="view" contentMode="scaleToFill" id="8Vu-T5-6I2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="npd-vn-RwB">
+                                <rect key="frame" x="57" y="124" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="7Kx-SG-MAz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hik-Dw-Evt">
+                                <rect key="frame" x="57" y="168" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="lqi-RR-UlY"/>
+                                </constraints>
+                                <state key="normal" title="表示名を変更" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleChangeButton:" destination="iti-c7-2t0" eventType="touchUpInside" id="Onx-xH-zgx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8f-fb-bQA">
+                                <rect key="frame" x="57" y="218" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="xod-g2-u1F"/>
+                                </constraints>
+                                <state key="normal" title="ログアウト" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleLogoutButton:" destination="iti-c7-2t0" eventType="touchUpInside" id="k88-r9-2It"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="npd-vn-RwB" firstAttribute="top" secondItem="HID-Y7-5Ih" secondAttribute="top" constant="80" id="15A-7F-tft"/>
+                            <constraint firstItem="f8f-fb-bQA" firstAttribute="top" secondItem="Hik-Dw-Evt" secondAttribute="bottom" constant="10" id="5By-pE-zNy"/>
+                            <constraint firstItem="Hik-Dw-Evt" firstAttribute="top" secondItem="npd-vn-RwB" secondAttribute="bottom" constant="10" id="5Mc-wN-9kB"/>
+                            <constraint firstItem="f8f-fb-bQA" firstAttribute="centerX" secondItem="8Vu-T5-6I2" secondAttribute="centerX" id="S0H-gV-o1A"/>
+                            <constraint firstItem="Hik-Dw-Evt" firstAttribute="centerX" secondItem="8Vu-T5-6I2" secondAttribute="centerX" id="ncZ-c9-BVB"/>
+                            <constraint firstItem="npd-vn-RwB" firstAttribute="centerX" secondItem="8Vu-T5-6I2" secondAttribute="centerX" id="yi0-F2-ACm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="HID-Y7-5Ih"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="設定" image="setting" id="dBW-Jj-tnl"/>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="npd-vn-RwB" id="T84-Iw-VGU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5C-uF-wON" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
